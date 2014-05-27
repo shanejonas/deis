@@ -139,7 +139,7 @@ coreos $ cat /home/coreos/deis-builder-data-backup.tar | sudo docker import - de
 ### Start the cluster
 Again, the Makefile takes care of this logic for us:
 ```bash
-dev $ make start
+dev $ make run
 ```
 
 ### Test
